@@ -1,0 +1,98 @@
+.coin-detail-header,
+.coin-summary,
+.liquidity-summary,
+.source-list-heading {
+  flex: 0 0 auto;
+}
+
+.coin-detail-panel .source-list-scroll {
+  min-height: 0;
+  height: auto;
+  max-height: none;
+  flex: 1 1 auto;
+  overscroll-behavior: contain;
+}
+
+.source-list-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 16px;
+  border-bottom: 1px solid #1f354f;
+  background: #0b1726;
+}
+
+.source-list-heading > div:first-child {
+  display: flex;
+  min-width: 0;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.source-list-heading strong {
+  color: #e3effe;
+  font-size: 12px;
+}
+
+.source-list-heading span {
+  color: #7891ad;
+  font-size: 10px;
+}
+
+.source-list-heading span b {
+  color: #edf5ff;
+}
+
+.identity-counts {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 7px;
+}
+
+.identity-relation,
+.identity-counts span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 7px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.identity-same {
+  color: #75b8ff !important;
+  background: #153253;
+}
+
+.identity-opposing {
+  color: #d8a2ff !important;
+  background: #302044;
+}
+
+.coin-detail-panel .source-table {
+  min-width: 1130px;
+}
+
+@media (max-width: 820px) {
+  .source-list-heading {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  .coin-detail-panel .source-list-scroll {
+    min-height: 420px;
+    flex: 0 0 420px;
+  }
+}
+
+@media (max-width: 480px) {
+  .source-list-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
