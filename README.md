@@ -7,6 +7,12 @@ symbol ordering, equity-series presentation, and mock API-driven workflows.
 The repository intentionally excludes exchange credentials, account records,
 live trading configuration, build bundles, and local runtime data.
 
+*中文简介*
+
+这是一个基于 React、TypeScript 和 Vite 的交易机器人控制台，用于展示交易界面、
+标的排序、权益曲线和由模拟 API 驱动的工作流。仓库不包含交易所凭据、账户记录、
+实盘交易配置、构建产物或本地运行数据。
+
 ## Quick Start
 
 ```bash
