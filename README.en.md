@@ -2,10 +2,10 @@
 
 > Language / 语言: [English](README.en.md) | [简体中文](README.zh-CN.md)
 
-A React, TypeScript, and Vite dashboard for exploring trading-console UI,
-symbol ordering, equity-series presentation, and mock API-driven workflows.
-The repository intentionally excludes exchange credentials, account records,
-live trading configuration, build bundles, and local runtime data.
+Trading Bot Console is a React, TypeScript, and Vite dashboard for exploring
+trading-console UI, symbol ordering, equity-series presentation, and mock
+API-driven workflows. It intentionally excludes exchange credentials, account
+records, live trading configuration, build bundles, and local runtime data.
 
 ## Quick Start
 
@@ -18,7 +18,6 @@ npm run dev
 
 ```bash
 npm run test:sort
-npm run build
 ```
 
 ## Project Layout
@@ -36,12 +35,9 @@ This is a user-interface and mock-data project. It is not a live trading
 system, a trading recommendation, or a place to store exchange credentials.
 Read [DISCLAIMER.md](DISCLAIMER.md) before using or extending it.
 
-## Contributing
+## Contributing and License
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md), keep changes focused, and run the
-narrowest relevant verification before opening a pull request.
-
-## License
-
-Source code is released under the [MIT License](LICENSE). See
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for third-party attribution.
+narrowest relevant check before opening a pull request. Source code is released
+under the [MIT License](LICENSE); see
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for attribution.
